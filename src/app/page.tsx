@@ -1,4 +1,5 @@
-import HomePageView from '@/Views/HomePageView'
+'use client';
+import HomePageView from '@/UI/HomePageView'
 import React from 'react'
 
 function HomePage() {
