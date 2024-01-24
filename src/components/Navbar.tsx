@@ -8,7 +8,7 @@ import { CiMenuBurger } from "react-icons/ci";
 function Navbar() {
   const { isDarkMode, toggleDarkMode } = useDarkModeToggle((state) => state)
   return (
-    <div className='w-full h-24 flex justify-between px-10 fixed bg-transparent'>
+    <div className='w-full h-24 flex justify-between lg:px-10 sm:px-5 fixed bg-transparent'>
         <div className='lg:flex sm:hidden items-center'>
             <p className='font-Roboto-Bold text-3xl text-white'>Daniel</p>
         </div>
