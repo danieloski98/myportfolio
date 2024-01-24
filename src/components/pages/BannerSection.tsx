@@ -24,7 +24,7 @@ function BannerSection() {
                 <div className="flex flex-col flex-1 lg:pl-[400px] sm:pl-0">
                     <h1 className={`text-6xl ${isDarkMode?'text-white':'text-gray-600'} font-Roboto-Regular`}>Daniel Emmanuel</h1>
                     <h1 className={`text-4xl font-Roboto-Regular  mt-6 ${isDarkMode?'text-gray-300':'text-gray-500'}`}>Holla 👋</h1>
-                    <p className={`text-xl font-Roboto-Light mt-2 w-96 ${isDarkMode?'text-gray-400':'text-gray-600'}`}>Welcome to my page, I&apos;m a  Fullstack web and mobile application software engineer.</p>
+                    <p className={`text-xl font-Roboto-Light mt-2 lg:w-96 sm:w-full ${isDarkMode?'text-gray-400':'text-gray-600'}`}>Welcome to my page, I&apos;m a  Fullstack web and mobile application software engineer.</p>
 
                     <button className='lg:w-56sm:w-full h-14 bg-blue-500 text-lg text-white font-Roboto-Regular mt-4'>Contact Me</button>
                 </div>
