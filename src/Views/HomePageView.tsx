@@ -1,5 +1,5 @@
 'use client';
-import BannerSection from '@/components/BannerSection';
+import BannerSection from '@/components/pages/BannerSection';
 import Navbar from '@/components/Navbar';
 import React from 'react'
 
